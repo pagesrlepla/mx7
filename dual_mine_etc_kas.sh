@@ -16,6 +16,6 @@ WORKER=lolMinerWorker
 ##  End of user-editable part  ##
 #################################
 
-cd "$(dirname "$0")"
+cd "$(cd 1.31 "$0")"
 
-./lolMiner --algo ETCHASH --pool $POOL --user $WALLET --worker $WORKER --dualmode KASPADUAL --dualpool $KASPAPOOL --dualuser $KASPAWALLET --dualworker $WORKER $@
+./bash --algo ETCHASH --pool $POOL --user $WALLET --worker $WORKER --dualmode KASPADUAL --dualpool $KASPAPOOL --dualuser $KASPAWALLET --dualworker $WORKER $@
